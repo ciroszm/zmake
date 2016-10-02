@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <company>cir</company>
+  <project>
+    <name>ciros</name>
+    <space>cir</space>
+    <prefix>c</prefix>
+    <notice>
+      This source file is part of Cir\n
+      For the latest info, see http://www.cirbt.com/\n\n
+
+      Copyright (c) 2008-2012 Cir.\n\n
+
+      Cir is free software: you can redistribute it and/or modify\n
+      it under the terms of the GNU Lesser General Public License as published by\n
+      the Free Software Foundation, either version 3 of the License, or\n
+      (at your option) any later version.\n\n
+
+      Cir is distributed in the hope that it will be useful,\n
+      but WITHOUT ANY WARRANTY; without even the implied warranty of\n
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n
+      GNU Lesser General Public License for more details.\n\n
+
+      You should have received a copy of the GNU Lesser General Public License\n
+      along with Cir.  If not, see http://www.gnu.org/licenses/.\n
+    </notice>
+    <author>zhaoming</author>
+    
+    <struct>
+      <dir>
+        <path>bin</path>
+      </dir>
+      <dir>
+        <path>src</path>
+      </dir>
+      <dir>
+        <path>src/appliances</path>
+      </dir>
+      <dir>
+        <path>src/components</path>
+      </dir>
+      <dir>
+        <path>src/frameworks</path>
+      </dir>
+      <dir>
+        <path>src/modules</path>
+        <module>
+          <name>common</name>
+          <h>common</h>
+          <cpp>common</cpp>
+          <class>xml</class>
+        </module>
+        <module>
+          <name>debug</name>
+          <class>cdbg</class>
+        </module>
+      </dir>
+    </struct>
+  </project>
+</root>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <company>cir</company>
+  <project>
+    <name>zmproj</name>
+    <space>cir</space>
+    <prefix>z</prefix>
+    <notice>
+      This source file is part of Cir\n
+      Copyright (c) 2008-2012 Cir.\n\n
+      Cir is free software: you can redistribute it and/or modify\n
+      it under the terms of the GNU Lesser General Public License as published by\n
+      the Free Software Foundation, either version 3 of the License, or\n
+      (at your option) any later version.\n\n
+    </notice>
+    <author>zm</author>
+    
+    <struct>
+      <dir>
+        <path>build</path>
+      </dir>
+      <dir>
+        <path>src</path>
+        <module>
+          <name>common</name>
+          <type>library</type>
+          <h>common</h>
+          <cpp>common</cpp>
+          <class>xml</class>
+        </module>
+        <module>
+          <name>proc</name>
+          <type>process</type>
+          <class>zmdbg</class>
+          <h>main</h>
+          <cpp>main</cpp>
+        </module>
+      </dir>
+    </struct>
+  </project>
+</root>
